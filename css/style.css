@@ -14,7 +14,6 @@ header {
   background-image: url('../images/header-bg.jpg');
   background-size: cover;
   background-position: center center;
-  height: 100vh;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -93,6 +92,52 @@ header .caption button:hover {
   }
 }
 /* ====================== End Header ======================= */
+
+/* ====================== Start About ======================= */
+.about h3 span {
+  color: #e65f78;
+}
+.about .icons ul li a {
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #d4d4d4;
+  line-height: 38px;
+  transition: color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  text-align: center;
+}
+.about .icons ul li a:hover {
+  color: #e65f78;
+  border-color: #e65f78;
+}
+/* ====================== End About ======================= */
+
+/* ====================== Start About ======================= */
+.services {
+  background-color: #f8f9fa !important;
+}
+.services .features .inner i {
+  color: #e65f78;
+}
+.services .features .inner h3::after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #e65f78;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.5s ease-in-out;
+}
+.services .features .border:hover h3::after {
+  width: 55px;
+}
+/* ====================== End About ======================= */
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) {
